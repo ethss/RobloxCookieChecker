@@ -55,7 +55,7 @@ def main(stdscr):
     curses.start_color()
     curses.init_pair(1, curses.COLOR_GREEN, curses.COLOR_BLACK)
     curses.init_pair(2, curses.COLOR_RED, curses.COLOR_BLACK)
-    curses.init_pair(3, curses.COLOR_CYAN, curses.COLOR_BLACK)  # Progress bar color
+    curses.init_pair(3, curses.COLOR_CYAN, curses.COLOR_BLACK) 
 
     if not os.path.exists(cookies_file):
         stdscr.addstr(0, 0, f"Cookies file not found: {cookies_file}")
@@ -111,7 +111,7 @@ def main(stdscr):
         if valid_cookies:
             newest_valid = valid_cookies[-1]
             display_str = f"Newest Valid Cookie: {newest_valid[0]} (UserID: {newest_valid[1]})"
-            stdscr.addstr(6, 0, display_str[:max_x-1], curses.color_pair(1))  # Truncate to fit width
+            stdscr.addstr(6, 0, display_str[:max_x-1], curses.color_pair(1))  
 
         stdscr.refresh()
         curses.napms(1)
