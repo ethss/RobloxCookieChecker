@@ -69,7 +69,3 @@ The script reads cookies from `cookies.txt`, checks their validity by attempting
 ## ⚠️ Disclaimer
 
 This script is for educational purposes only. Use it responsibly and do not violate Roblox's terms of service.
-
-## 📜 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
