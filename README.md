@@ -40,7 +40,7 @@ This script checks the validity of `.ROBLOSECURITY` cookies for Roblox accounts.
 3. ▶️ Run the script:
 
     ```sh
-    python script_name.py
+    python main.py
     ```
 
 ## 📜 Script Overview
