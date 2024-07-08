@@ -50,7 +50,7 @@ The script reads cookies from `cookies.txt`, checks their validity by attempting
 ### 🔍 check_cookie Function
 
 - Takes a `.ROBLOSECURITY` cookie as input.
-- Sends a request to the Roblox profile page.
+- Sends a request to the api to check if cookie is valid
 - Returns the username and user ID if the cookie is valid.
 
 ### 🖥 main Function
